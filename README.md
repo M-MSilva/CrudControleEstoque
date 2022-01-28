@@ -94,7 +94,7 @@ Marcos Matheus de Paiva Silva
 
 Este código foi desenvolvido baseado em tudo que aprendi com:
 
-Dary Nazar, Gustavo Neitzke, Bruno Campos, Fábio dos Reis, William Francisco Leite (dev Media), Samiron Barai, Gustavo Guanabara, Hoheckell Filho, Povilas Korop, Pablo de Deus.
+Dary Nazar, Gustavo Neitzke, Bruno Campos, Fábio dos Reis, William Francisco Leite (dev Media), Samiron Barai, Gustavo Guanabara, Hoheckell Filho, Povilas Korop.
 
 As Imagens foram disponibilizados por:
 
