@@ -1,8 +1,10 @@
 # Controle de Estoque - FULL STACK PROJECT :computer: :office: :package:
 
+![toguether.png](https://github.com/M-MSilva/CrudControleEstoque/blob/master/toguether.png)
+
 ## Sobre este projeto
 
-O intuito do projeto é monitorar o estoque de uma empresa fictícia, que inclui desde a criação o banco de dados até o desenvolvimento do site.
+O intuito do projeto é monitorar o estoque de uma empresa fictícia, que inclui desde a criação o banco de dados (SQL) até o desenvolvimento do site.
 
 ## Aplicações 
 
@@ -11,11 +13,6 @@ O projeto vigente pode ser utilizado para corroborar com sua empresa no gerencia
 ## Observações importantes sobre o programa
 
 As imagens que devem ser inseridas no site necessitam ser incluídas empregando o botão de editar, ou de criar um novo produto/kit. Para que não haja erros é aconselhável criar o banco de dados na ordem de arquivos CriarBancoMM -> TriggerBancoMM-> InsertBancoMM -> RelatorioAMM -> RelatorioBMM -> AlteracaoMM. Digo isto, pois o path da imagem foi adicionado após a criação do banco de dados.
-
-## Conceptual Model
-
-![SerialResult.JPG]()
-
 
 ## Motivação
 
@@ -51,7 +48,7 @@ Segundo a documentação do Laravel, para executar um programa que utiliza este 
 * Um servidor como Apache/Nginx;
 * E um editor de código ou IDE de sua preferência.
 
-Entretanto, na construção de meu projeto utilizei algumas coisas a mais, que será abordado na seção anterior.
+Entretanto, na construção de meu projeto utilizei algumas coisas a mais, que será abordado na seção seguinte.
 
 ### Contruído Com
 
@@ -65,7 +62,7 @@ Entretanto, na construção de meu projeto utilizei algumas coisas a mais, que s
 
 ### Executando o código
 
-Após baixar o repositório e criar o banco vá para ControleEstoqueLaravelCrud/.env.example , e troque:
+Após baixar o repositório e criar o banco vá para ControleEstoqueLaravelCrud/.env.example, e altere:
 
 ```bash
 DB_DATABASE=controleestoque
@@ -73,7 +70,7 @@ DB_USERNAME=
 DB_PASSWORD=
 ```
 
-e troque para o seu usuário e senha se tiver. Posteriormento no bash ou cmd  na pasta ControleEstoqueLaravelCrud faça:
+ademais, troque para o seu usuário e senha se tiver. Posteriormento no bash ou cmd  na pasta ControleEstoqueLaravelCrud faça:
 
 ```bash
 php artisan serve
@@ -97,7 +94,7 @@ Marcos Matheus de Paiva Silva
 
 Este código foi desenvolvido baseado em tudo que aprendi com:
 
-Dary Nazar, Gustavo Neitzke, Bruno Campos, Fábio dos Reis, William Francisco Leite (dev Media), Samiron Barai, Gustavo Guanabara,Hoheckell Filho ,Povilas Korop , Pablo de Deus.
+Dary Nazar, Gustavo Neitzke, Bruno Campos, Fábio dos Reis, William Francisco Leite (dev Media), Samiron Barai, Gustavo Guanabara, Hoheckell Filho, Povilas Korop, Pablo de Deus.
 
 As Imagens foram disponibilizados por:
 
