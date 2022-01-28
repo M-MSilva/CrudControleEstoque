@@ -78,7 +78,7 @@ e troque para o seu usuário e senha se tiver. Posteriormento no bash ou cmd  na
 ```bash
 php artisan serve
 ```
-pronto, veja o site em localhost:8000 e acesse o banco como quiser.
+pronto, veja o site em localhost:8000 e acesse o banco como quiser. :open_mouth:
 
 
 ## Contributing 
