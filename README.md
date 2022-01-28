@@ -1,67 +1,84 @@
-# Crud Controle Estoque FULL STACK PROJECT
-## Objetivo do Programa
+# Controle de Estoque - FULL STACK PROJECT :computer: :office: :package:
+
+## Sobre este projeto
 
 O intuito do projeto é monitorar o estoque de uma empresa fictícia, que inclui desde a criação o banco de dados até o desenvolvimento do site.
 
+## Aplicações 
 
+O projeto vigente pode ser utilizado para corroborar com sua empresa no gerenciamento de estoque, desde a criação de novos objetos (produtos) até sua ediação e exclusão, bem como na geração de relatórios, e versionamento de dados. Apesar deste programa fazer parte do meu portfólio pessoal sinta-se à vontade para utilizá-lo em estudos, reparos e melhorias. :call_me_hand:
 
+## Observações importantes sobre o programa
+
+As imagens que devem ser inseridas no site necessitam ser incluídas empregando o botão de editar, ou de criar um novo produto/kit. Para que não haja erros é aconselhável criar o banco de dados na ordem de arquivos CriarBancoMM -> TriggerBancoMM-> InsertBancoMM -> RelatorioAMM -> RelatorioBMM -> AlteracaoMM. Digo isto, pois o path da imagem foi adicionado após a criação do banco de dados.
 
 ## Conceptual Model
 
 ![SerialResult.JPG]()
 
-The code in c solves the Poisson elliptical P.D.E by calculating the matrix that approximates the solution to the P.D.E. The steps to calculate the matrix are illustrated above.
 
 ## Motivação
 
-Este projeto foi desenvolvido a partir de uma prova que achei demasiadamente interessante. Em sua concepção utilizei as linguagens html, css, javascript, php, sql e blade, além do framework laravel e bootstrap. Tal prova serviu tanto  para testar minhas abilidades, quanto para  meu prendizado, já que precisei utilizar relações manyTomany e triggers em meu projeto. Portanto concerteza este projeto terá aplicações futuras. :smiley:
+Este projeto foi desenvolvido a partir de uma prova que achei demasiadamente interessante. Em sua concepção utilizei as linguagens html, css, javascript, php, sql e blade, além do framework laravel e bootstrap. Tal prova serviu tanto  para testar minhas abilidades, quanto para  meu aprendizado, já que precisei utilizar relações manyTomany e triggers em meu projeto. Portanto, concerteza este programa terá aplicações futuras. :smiley:
 
-## Observações IMPORTANTES sobre o programa
+## Funcionalidades
 
-As imagens que devem ser inseridas no site necessitam ser incluídas empregando o botão de editar, ou de criar um novo produto, kit. Para que não haja erros é aconselhável criar o banco na ordem CriarBancoMM -> TriggerBancoMM-> InsertBancoMM -> RelatorioAMM -> RelatorioBMM -> AlteracaoMM. Digo isto, pois o path da imagem foi adicionado após a criação do banco de dados.
+### Web:
 
-## Instructions for compiling and executing the code
+* Crie novos usuários ou funcionários, produtos ou Kits (os kits são produtos compostos, como por exemplo uma cesta básica);
+* Atualize tais usuários e produtos;
+* Delete-os;
+* Veja os usuários e produtos serem inseridos/excluidos no site e no banco de dados;
 
-### Initial requirements
 
-To compile the code you need any compiler that has the OpenMP shared memory API (compilers list: https://www.openmp.org/resources/openmp-compilers-tools/), however it is recommended to use GNU compiler, because some specific optimization flags I used can only be applied with this compiler.
+### Banco de Dados:
 
-### Compiling and running the code
+* Insira/Delete/organize novos produtos, usuários requisições (as requisições são a maneira como um funcionário opera o estoque na retirada/entrada de produtos);
+* Veja os produtos serem inseridos no estoque automaticamente pelo intermédio das requisições (as requisições acionam os triggers de entrada e saída de produtos no estoque);
+* Faça "relatórios" de produtos que saíram e entraram no estoque;
+* Altere o banco de dados como quiser;
 
-To compile the code in serial using the GNU compiler do:
+
+
+## Instruções para e executar e/ou compilar o código
+
+### Requisitos Iniciais
+
+Segundo a documentação do Laravel, para executar um programa que utiliza este framework é necessário ter:
+
+* O PHP na versão 7.2 ou superior;
+* Um Composer;
+* Um servidor como Apache/Nginx;
+* E um editor de código ou IDE de sua preferência.
+
+Entretanto, na construção de meu projeto utilizei algumas coisas a mais, que será abordado na seção anterior.
+
+### Contruído Com
+
+* [Laravel-5.6](https://laravel.com/docs/5.6);
+* [Bootstrap-4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/);
+* [Composer-2.1.14](https://getcomposer.org/download/);
+* [Php-7.3.33](https://www.php.net/releases/index.php);
+* [jquery-2.1.3](https://jquery.com/download/);
+* [Mysql-atual](https://dev.mysql.com/downloads/workbench/);
+
+
+### Executando o código
+
+Após baixar o repositório e criar o banco vá para ControleEstoqueLaravelCrud/.env.example , e troque:
 
 ```bash
-gcc PDE_MM_SerialCode.c -lm
+DB_DATABASE=controleestoque
+DB_USERNAME=
+DB_PASSWORD=
 ```
 
-and run:
+e troque para o seu usuário e senha se tiver. Posteriormento no bash ou cmd  na pasta ControleEstoqueLaravelCrud faça:
 
 ```bash
-./a.out
+php artisan serve
 ```
-
-To compile the code in parallel using the GNU compiler do:
-
-```bash
-gcc -fopenmp -o prg.x PDE_MM_OpenMPCode.c -lm
-```
-export the number of threads:
-
-```bash
-export OMP_NUM_THREADS=number of threads
-```
-
-and run the program at the end:
-
-```bash
-./prg.x
-```
-
-## Built With
-
-* [OpenMP-4.0](https://www.openmp.org/wp-content/uploads/OpenMP4.0.0.pdf) - Documentation OpenMP version 4.0
-* [OpenMP-4.5](https://www.openmp.org/wp-content/uploads/openmp-4.5.pdf) - Documentation OpenMP version 4.5
-
+pronto, veja o site em localhost:8000 e acesse o banco como quiser.
 
 
 ## Contributing 
