@@ -16,7 +16,7 @@ As imagens que devem ser inseridas no site necessitam ser incluídas empregando 
 
 ## Motivação
 
-Este projeto foi desenvolvido a partir de uma prova que achei demasiadamente interessante. Em sua concepção utilizei as linguagens html, css, javascript, php, sql e blade, além do framework laravel e bootstrap. Tal prova serviu tanto  para testar minhas abilidades, quanto para  meu aprendizado, já que precisei utilizar relações manyTomany e triggers em meu projeto. Portanto, concerteza este programa terá aplicações futuras. :smiley:
+Este projeto foi desenvolvido a partir de uma prova que achei demasiadamente interessante. Em sua concepção utilizei as linguagens **html**, **css**, **javascript**, **php**, **sql** e **blade**, além do framework **laravel** e **bootstrap**. Tal prova serviu tanto  para testar minhas abilidades, quanto para  meu aprendizado, já que precisei utilizar relações manyTomany e triggers em meu projeto. Portanto, concerteza este programa terá aplicações futuras. :smiley:
 
 ## Funcionalidades
 
@@ -30,7 +30,7 @@ Este projeto foi desenvolvido a partir de uma prova que achei demasiadamente int
 
 ### Banco de Dados:
 
-* Insira/Delete/organize novos produtos, usuários requisições (as requisições são a maneira como um funcionário opera o estoque na retirada/entrada de produtos);
+* Insira/Delete/organize novos produtos, usuários e requisições (as requisições são a maneira como um funcionário opera o estoque na retirada/entrada de produtos);
 * Veja os produtos serem inseridos no estoque automaticamente pelo intermédio das requisições (as requisições acionam os triggers de entrada e saída de produtos no estoque);
 * Faça "relatórios" de produtos que saíram e entraram no estoque;
 * Altere o banco de dados como quiser;
@@ -78,9 +78,9 @@ php artisan serve
 pronto, veja o site em localhost:8000 e acesse o banco como quiser. :open_mouth:
 
 
-## Contributing 
+## Contribuindo 
 
-Reviews and suggestions feel free to send me:
+Críticas, dúvidas e sugestões sinta-se à vontade para me enviar:
 
 e-mail: marcosmatheusdepaivasilva@gmail.com
 
@@ -102,4 +102,4 @@ As Imagens foram disponibilizados por:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details 
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
