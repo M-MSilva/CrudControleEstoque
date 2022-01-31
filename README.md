@@ -62,7 +62,7 @@ Entretanto, na construção de meu projeto utilizei algumas coisas a mais, que s
 
 ### Executando o código
 
-Após baixar o repositório e criar o banco vá para ControleEstoqueLaravelCrud/.env.example, e altere:
+Após baixar o repositório e criar o banco vá para ControleEstoqueLaravelCrud/.env.example, e copie seu conteúdo para um arquivo criado que tem de ser demnominado por .env. Posteriormente, altere:
 
 ```bash
 DB_DATABASE=controleestoque
