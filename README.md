@@ -1,4 +1,4 @@
-# Controle de Estoque - FULL STACK PROJECT :computer: :office: :package:
+# Controle de Estoque - FULL STACK PROJECT :computer: :office: :package: 
 
 ![toguether.png](https://github.com/M-MSilva/CrudControleEstoque/blob/master/toguether.png) 
 
