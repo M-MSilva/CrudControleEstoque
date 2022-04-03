@@ -84,7 +84,7 @@ Críticas, dúvidas e sugestões sinta-se à vontade para me enviar:
 
 e-mail: marcosmatheusdepaivasilva@gmail.com
 
-LinkedIn: linkedin.com/in/marcos-matheus-silva-089699b3/ :hugs:
+LinkedIn: https://www.linkedin.com/in/marcos-matheus-silva-089699b3/ :hugs:
 
 ## Author
 
