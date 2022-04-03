@@ -16,7 +16,7 @@ As imagens que devem ser inseridas no site necessitam ser incluídas empregando 
 
 ## Motivação
 
-Este projeto foi desenvolvido a partir de uma prova que achei demasiadamente interessante. Em sua concepção utilizei as linguagens **html**, **css**, **javascript**, **php**, **sql** e **blade**, além do framework **laravel** e **bootstrap**. Tal prova serviu tanto  para testar minhas abilidades, quanto para  meu aprendizado, já que precisei utilizar relações manyTomany e triggers em meu projeto. Portanto, concerteza este programa terá aplicações futuras. :smiley:
+Este projeto foi desenvolvido a partir de uma prova que achei demasiadamente interessante. Em sua concepção utilizei as linguagens **html**, **css**, **javascript**, **php**, **sql** e **blade**, além do framework **laravel** e **bootstrap**. Tal prova serviu tanto  para testar minhas habilidades, quanto para  meu aprendizado, já que precisei utilizar relações manyTomany e triggers em meu projeto. Portanto, concerteza este programa terá aplicações futuras. :smiley:
 
 ## Funcionalidades
 
