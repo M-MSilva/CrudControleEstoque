@@ -35,8 +35,6 @@ Este projeto foi desenvolvido a partir de uma prova que achei demasiadamente int
 * Faça "relatórios" de produtos que saíram e entraram no estoque;
 * Altere o banco de dados como quiser;
 
-![BancoControleDeestoque.png](https://github.com/M-MSilva/CrudControleEstoque/blob/master/BancoDeDados/BancoControleDeestoque.png) 
-
 ## Instruções para e executar e/ou compilar o código
 
 ### Requisitos Iniciais
